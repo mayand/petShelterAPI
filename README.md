@@ -51,7 +51,7 @@ clone the github then install the below nodejs modules
 * (https://www.mongodb.com/) - For Database
 
 ## Known Defects
-Even though the name is a unique field, the users would still be allowed to enter duplicate names by changing the case. Ideally, the pet name should stored in the DB as all upper or all lower case and should be converted to proper case using express after extracting the data from the DB and before sending the response to the REST call.
+Even though the name is a unique field, the users would still be allowed to enter duplicate names by changing the case. 
 
 ## Authors
 
