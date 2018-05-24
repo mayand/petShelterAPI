@@ -9,18 +9,18 @@ It uses mongoDB on the cloud as a database.
 
 ## Getting Started
 
-The App can be launched using the URL https://floating-fortress-31563.herokuapp.com
-https://floating-fortress-31563.herokuapp.com/pets - returns the list of all the Pets in the Pet Shelter in JSON format
-https://floating-fortress-31563.herokuapp.com/pets/{id} - returns the pet details with Id {Id} in JSON format
+* The App can be launched using the URL https://floating-fortress-31563.herokuapp.com
+* https://floating-fortress-31563.herokuapp.com/pets - returns the list of all the Pets in the Pet Shelter in JSON format
+* https://floating-fortress-31563.herokuapp.com/pets/{id} - returns the pet details with Id {Id} in JSON format
 
-An individual Pet detail can be posted by sending the 
-HTTP POST request to https://floating-fortress-31563.herokuapp.com/pets/ in JSON format
+* An individual Pet detail can be posted by sending the 
+  HTTP POST request to https://floating-fortress-31563.herokuapp.com/pets/ in JSON format
 
 ### Usage
-Sample JSON format for HTTP POST:
+* Sample JSON format for HTTP POST:
 {"name":"Doggo2","type":"Dog","breed":"Boxer","latitude":"47.60621","longitude":"-122.33207"}
 
-Returns:
+* Returns:
 {
     "_id": "5b058ff25a8e640014480eee",
     "name": "Doggo3",
