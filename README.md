@@ -33,16 +33,16 @@ Returns:
 
 ### Prerequisites
 
-node.js
-mongoDB
+* node.js
+* mongoDB
 
 ### Installing
 
 clone the github then install the below nodejs modules
 
-npm install express
-npm install config
-npm install mongoose
+* npm install express
+* npm install config
+* npm install mongoose
 
 
 ## Built With
